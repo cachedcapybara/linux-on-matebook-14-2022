@@ -18,7 +18,7 @@ Running Linux on huawei matebook 14 2022 intel(KLVF-XX)
 | Webcam | HD 720P | ✔ Yes |  |
 | Ports | USB-C × 1<br>USB3.2 Gen 1 × 2<br>HDMI × 1<br>3.5 mm headset and microphone 2-in-1 jack × 1 | ✔ Yes | USB-C support data, charging and DisplayPort |
 | Power button |  | ✔ Yes |  |
-| Fingerprint Reader | Goodix GXFP5130 (27c6:51c0) | ⚠️ Yes | located on the power button, see [Fingerprint](#fingerprint) |
+| Fingerprint Reader | Goodix GDIX51C0:00 (27c6:51c0) | ⚠️ Yes | located on the power button, see [Fingerprint](#fingerprint) |
 | Battery | 56 Wh | ✔ Yes |  |
 | Lid |  |  ✔ Yes |  |
 | Power management | |  |  |
@@ -72,6 +72,4 @@ See Github issue: [\[ADL-P\] Missing topology for ES8336 Alder Lake P device (i5
 
 ### Fingerprint
 
-The GXFP5130 is not a USB or PCIe device — it lives on the Embedded Controller's internal SPI bus and is unreachable through any standard Linux driver path.
-
-See: [Goodix GXFP5130 Linux Fingerprint Driver](https://github.com/Metrohan/gxfp5130-linux)
+See: [libfprint Goodix SPI Driver](https://github.com/berkekbgz/libfprint-goodix-spi)
