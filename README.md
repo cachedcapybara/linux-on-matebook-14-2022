@@ -18,7 +18,7 @@ Running Linux on huawei matebook 14 2022 intel(KLVF-XX)
 | Webcam | HD 720P | ✔ Yes |  |
 | Ports | USB-C × 1<br>USB3.2 Gen 1 × 2<br>HDMI × 1<br>3.5 mm headset and microphone 2-in-1 jack × 1 | ✔ Yes | USB-C support data, charging and DisplayPort |
 | Power button |  | ✔ Yes |  |
-| Fingerprint Reader | Goodix GDIX51C0:00 (27c6:51c0) | ⚠️ Yes | located on the power button, see [Fingerprint](#fingerprint) |
+| Fingerprint Reader | Goodix GDIX51C0:00 (27c6:51c0) | ✔ Yes | located on the power button, see [Fingerprint](#fingerprint) |
 | Battery | 56 Wh | ✔ Yes |  |
 | Lid |  |  ✔ Yes |  |
 | Power management | |  |  |
